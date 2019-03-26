@@ -12,26 +12,26 @@ These are my jupyter notebooks on ML & DL.
 ----
 ## Tabular Data
 
-* [Using Random Forests to predict income from Tabular Data](Adult-Census-Data/adult-census-data-randomforest-fastai-processing.ipynb).
-* [Using Deep Neural Networks to predict income from Tabular Data](Adult-Census-Data/adult-census-data-dnn-with-fast-ai.ipynb)
+* [Notebook](Adult-Census-Data/adult-census-data-randomforest-fastai-processing.ipynb) Using Random Forests to predict income from Tabular Data.
+* [Notebook](Adult-Census-Data/adult-census-data-dnn-with-fast-ai.ipynb) Using Deep Neural Networks to predict income from Tabular Data.
 
 ----
 
 ## Computer Vision
 
-* [Using a **MLP** (Multi Layer Perceptron) to classify images from the MNIST dataset.  Written in vanilla **Pytorch**](mnist_mlp_pytorch.ipynb) 
-* [Using a **CNN** (Convoloution Neural Network) to classify images from the CIFAR-10 dataset. Written in vanilla **Pytorch**.](cifar10_cnn_pytorch.ipynb)
-* [Using **Transfer learning** to fine-tune a **Resnet** pre-trained on Imagenet to recognize Arabic handwritten characters.](Arabic-Handwritten-recognition-CNN.ipynb) Acheiving SOTA result ~98% Accuracy.
+* [Notebook](mnist_mlp_pytorch.ipynb) Using a **MLP** (Multi Layer Perceptron) to classify images from the MNIST dataset.  Written in vanilla **Pytorch** 
+* [Notebook](cifar10_cnn_pytorch.ipynb) Using a **CNN** (Convoloution Neural Network) to classify images from the CIFAR-10 dataset. Written in vanilla **Pytorch**.
+* [Notebook](Arabic-Handwritten-recognition-CNN.ipynb) Using **Transfer learning** to fine-tune a **Resnet** pre-trained on Imagenet to recognize Arabic handwritten characters. Acheiving SOTA result ~98% Accuracy.
 
 ----
 
 ## NLP (Natural Language Processing)
 
-#### Publishing the SOTA pre-trained Language model for Arabic Language trained  on ~800,000 Wikipedia articles following the paper [ULMFiT (Universal Language Model Fine-tuning for Text Classification)](https://arxiv.org/abs/1801.06146) .
+**Publishing the SOTA pre-trained Language model for Arabic Language trained  on ~800,000 Wikipedia articles following the paper [ULMFiT (Universal Language Model Fine-tuning for Text Classification)](https://arxiv.org/abs/1801.06146) .**
 
-#### The published Language model weights are available [here](http://storage.googleapis.com/ulmfit-arabic-v1.tar.gz) and can be used for a variety of NLP tasks like (Sentiment Analysis, Text Generation ) and any other task that require the model to have an understanding of the language semantics.
+**Simple transfer learning using just a single layer of weights (embeddings) has been extremely popular for some years, such as the word2vec embeddings from Google However, full neural networks in practice contain many layers and can encompass much more details about the language and many implementations for this idea have emerged in the last year like [ULMFit](https://arxiv.org/abs/1801.06146), [ELMo](https://allennlp.org/elmo), [GLoMo](https://arxiv.org/abs/1806.05662), [OpenAI transformer](https://openai.com/blog/language-unsupervised/), [BERT](https://arxiv.org/abs/1810.04805).**
 
-#### Simple transfer learning using just a single layer of weights (embeddings) has been extremely popular for some years, such as the word2vec embeddings from Google However, full neural networks in practice contain many layers and can encompass much more details about the language and many implementations for this idea have emerged in the last year like [ULMFit](https://arxiv.org/abs/1801.06146), [ELMo](https://allennlp.org/elmo), [GLoMo](https://arxiv.org/abs/1806.05662), [OpenAI transformer](https://openai.com/blog/language-unsupervised/), [BERT](https://arxiv.org/abs/1810.04805).
+**The published Language model weights are available [here](http://storage.googleapis.com/ulmfit-arabic-v1.tar.gz) and can be used for a variety of NLP tasks like (Sentiment Analysis, Text Generation ) and any other task that require the model to have an understanding of the language semantics.**
 
 ![image](assets/ulmfit_imdb.png)
 
@@ -69,7 +69,7 @@ These are my jupyter notebooks on ML & DL.
     ` pip install git+https://github.com/fastai/fastai.git`
     to get the bleeding edge version needed for some QRNN fixes.
 
-
+---
 **Every notebook contains links to download the dataset it uses, create a `data` folder to store the downloaded files.**
 
- **Every notebook contains more details about the specific implementaions of the model used.**
+**Every notebook contains more details about the specific implementaions of the model used.**
