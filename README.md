@@ -31,7 +31,7 @@ These are my jupyter notebooks on ML & DL.
 
 **Simple transfer learning using just a single layer of weights (embeddings) has been extremely popular for some years, such as the word2vec embeddings from Google However, full neural networks in practice contain many layers and can encompass much more details about the language and many implementations for this idea have emerged in the last year like [ULMFit](https://arxiv.org/abs/1801.06146), [ELMo](https://allennlp.org/elmo), [GLoMo](https://arxiv.org/abs/1806.05662), [OpenAI transformer](https://openai.com/blog/language-unsupervised/), [BERT](https://arxiv.org/abs/1810.04805).**
 
-**The published Language model weights are available [here](http://storage.googleapis.com/ulmfit-arabic-v1.tar.gz) and can be used for a variety of NLP tasks like (Sentiment Analysis, Text Generation ) and any other task that require the model to have an understanding of the language semantics.**
+**The published Language model weights are available [here](http://storage.googleapis.com/fastai-bucket/ulmfit-arabic-v1.tar.gz) and can be used for a variety of NLP tasks like (Sentiment Analysis, Text Generation ) and any other type ask that require the model to have an understanding of the language semantics.**
 
 ![image](assets/ulmfit_imdb.png)
 
